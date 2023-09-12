@@ -4,18 +4,53 @@
         <title>Programming Web</title>
         <meta harset="utf-8">
         <link rel="stylesheet" href="main.css">
+
+        <style>
+            .row1 .l1{
+                width:200px; 
+                height:200px; 
+                background-color:red; 
+                font-size:30px;
+            }
+            .row1 .r1{
+                width:800px; 
+                height:200px; 
+                background-color:black; 
+                color:white; 
+                font-size:35px;
+            }
+
+            .row2{
+                width:1000px; 
+                height:600px; 
+                background-color:orange; 
+                font-size:50px; 
+                color:red;
+            }
+
+            .row3{
+                width:1000px; 
+                height:200px; 
+                background-color:yellow; 
+                font-size:45px; 
+                color:black;
+            }
+        </style>
     </head>
 
     <body>
         <h1>GROUP 11:</h1>
         <div>
-            <div align="center" style="float:left;">
-                <div align="center" style="float:left; width:200px; height:200px; background-color:red; font-size:30px;">COLUMN 1</div>
-                <div align="center" style="float:right; width:800px; height:200px; background-color:black; color:white; font-size:35px">COLUMN 2</div>
+            <div class="row1" align="center" style="float:left;">
+                <div class="l1" style="float:left;">COLUMN 1</div>
+                <div class="r1" style="float:right; ">COLUMN 2</div>
             </div>
             
-            <div align="center" style="width:1000px; height:600px; background-color:orange; font-size:50px; color:red">ROW 2</div>
-            <div align="center" style="width:1000px; height:200px; background-color: yellow; font-size:45px; color:black">ROW 3</div>
+            <div align="center" style="float:left">
+                <div class="row2">ROW 2</div>
+                <div class="row3">ROW 3</div>
+            </div>
+            
         </div>
 
         <a href="https://github.com/ImThienz/workspace.study.html"></a>
