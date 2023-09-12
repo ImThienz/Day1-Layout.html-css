@@ -1,8 +1,9 @@
-p.news{
-    font-style: inherit;
-    text-decoration: underline;
+h1{
+    font-style: oblique;
+    text-align:center;
+    color: blue;
 }
 
-h2{
-    font-style: oblique;
-}
+
+
+
